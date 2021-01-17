@@ -393,7 +393,7 @@ padding-left: 20px;
   }
 
  
-
+ /*TAMAÑO CELULAR*/
   @media (max-width: 330px) {
     .news-cards {
       grid-template-columns: 1fr;
@@ -413,7 +413,7 @@ padding-left: 20px;
     .footer-links .footer-container ul {
       text-align: center;
     }
-  }
+  
 
   .first row h2{
  
@@ -435,13 +435,14 @@ padding-left: 20px;
     background-image:none;
     margin-bottom: 40px;
     align-items:center;
-    margin-left: 10%;
+    margin-left: 20%;
     }
 
   .cards-banner-one{
 
   width: 100%;
   align-content: flex-start;
+  margin-left: 20%;
   }
 
   .showcase p2{
@@ -467,7 +468,23 @@ padding-left: 20px;
   .news-cards p3{
     font-size: 20px;
     font-weight: bold;
+    
   }
+
+  .news-cards img{
+    width: 100%;
+    height: 60%;
+    padding-left: 15%;
+  }
+
+  .news-cards{
+
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap:25px;
+    margin-left: 20%;
+
+}
 
   .cards-banner-one h1{
     align-content: center;
@@ -495,16 +512,48 @@ padding-left: 20px;
   text-align: center;
   justify-content: flex-end;
   padding-bottom: 50px;
-  margin-left: 50px;
+  margin-left: 25%;
   margin-bottom: 20px;
   color: #ffff;
   
 }
 
 .service h1{
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .service p1, .service p2{
-  font-size: 23px;
+  font-size: 18px;
+}
+
+  .news-cards a{
+  font-size: 25px;
+}
+
+  .news-cards p3{
+  font-size: 30px;
+  padding-left: 10%;
+    }
+
+  .news-cards h3 {
+    font-size: 22px;
+    padding-left: 20%;
+
+  }
+
+  .social p{
+    padding-top: 20%;
+    padding-left: 20%;;
+    font-size: 30px;
+  }
+
+  .links a i{
+
+    font-size: 5rem;
+    padding-left: 40px;
+}
+
+  .links a p4{
+    font-size: 100px;
+  }
 }
