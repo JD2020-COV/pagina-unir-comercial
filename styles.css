@@ -420,6 +420,7 @@ padding-left: 20px;
 
     .menu-btn {
       display: block;
+      position: fixed;
       right:0;
       top:0;
     }
@@ -461,7 +462,8 @@ padding-left: 20px;
     top: 0;
     left: 0;
     background: #2f3640;
-    width: 50%;
+    width: 100%;
+    height: 500px;
     border-right: #ccc 1px solid;
     opacity: 0.9;
     padding: 15px;
