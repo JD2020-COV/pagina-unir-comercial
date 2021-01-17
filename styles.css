@@ -29,7 +29,7 @@ ul{
 .container
  {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 0;
     
 }
 
@@ -38,14 +38,20 @@ ul{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 10px 0;
+    height: 20%;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 10px;
+    position: fixed;
+    background: #000;
+    margin-top: none;
+    left:0;
+    top:0;
 
 }
 
 .nav-brand {
-    margin-top:20px; 
+    margin-top:5px; 
     padding:5px;
     width:200px;
     height:150px;
@@ -230,6 +236,22 @@ padding-left: 20px;
     color: #fff;
 }
 
+.service {
+  width: 100%;
+  height: 600px;
+  background: url("./img/pvf.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  color: #ffff;
+  
+}
+
 /*social*/
 
 .social {
@@ -395,6 +417,14 @@ padding-left: 20px;
  
  /*TAMAÑO CELULAR*/
   @media (max-width: 330px) {
+
+    .menu-btn {
+      display: block;
+      right:0;
+      top:0;
+    }
+
+    
     .news-cards {
       grid-template-columns: 1fr;
     }
@@ -421,8 +451,24 @@ padding-left: 20px;
 
   }
   .garantia h1{
+    padding-top: 50px;
     font-size: 30px;
   }
+
+  .navmain ul.nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    width: 50%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 15px;
+    transform: translateX(-400px);
+    transition: transform 0.5s ease-in-out;
+  }
+
   . h2{
     margin-bottom: 50px;
     font-size: 30px;
@@ -431,7 +477,7 @@ padding-left: 20px;
 
     .showcase {
     width: 100%;
-    height: 750px;
+    padding-bottom: 200px;
     background-image:none;
     margin-bottom: 40px;
     align-items:center;
@@ -556,4 +602,16 @@ padding-left: 20px;
   .links a p4{
     font-size: 100px;
   }
+
+  .nav-brand{
+    position: fixed;
+    background:none;
+    left:0;
+    top:10px;
+}
+
+  .navmain{
+    background: none;
+  }
+
 }
