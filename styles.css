@@ -38,7 +38,7 @@ ul{
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    height: 20%;
+    height: 10%;
     width: 100%;
     padding-left: 10%;
     padding-top: 10px;
@@ -53,8 +53,8 @@ ul{
 .nav-brand {
     margin-top:5px; 
     padding:5px;
-    width:200px;
-    height:150px;
+    width:100px;
+    height:75px;
 }
 
 .navmain ul{
@@ -452,7 +452,7 @@ padding-left: 20px;
 
   }
   .garantia h1{
-    padding-top: 50px;
+    padding-bottom: 20px;
     font-size: 30px;
   }
 
